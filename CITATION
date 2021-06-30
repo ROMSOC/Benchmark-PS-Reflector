@@ -1,9 +1,9 @@
-@MISC{example-repo-0.1,
-key = {Example repo},
-author = {Prieto A.},
-title = {{example-repor} -- {An example for ROMSOC repository} (Version 0.1)},
+@MISC{Benchmark-ESR3.
+key = {},
+author = {Rukhaia G.},
+title = {{Acceleration of Sinkhorn Algorithm using $\ep$ scaling with applications to the Reflector Problem}},
 month = April,
-year = 2021,
+year = 2020,
 doi = {10.xxxx/zenodo.xxxxxxx},
-note = {see also: \url{https://github.com/ROMSOC/example-repo-0.1}}
+note = {see also: \url{https://github.com/ROMSOC/Benchmark-ESR3}}
 }

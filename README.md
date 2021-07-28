@@ -1,6 +1,25 @@
-# Benchmark-cases-ESR3
+# Benchmarks-PS-reflector
 
-This code can be adjusted to any OS, but in its current form it can be run on Linux only.
+
+This code is developed to simulate the benchmark cases of model hierarchies for the Point Source to Far Field reflector problem. In order to use the code, one should choose desired benchmark case in the main.cpp file, and then run the makefile.
+
+The code is arranged in the following folders:
+
+"Benchmarks" - Contains two different testcase header files representing different problems. The desired one should be included in the main.cpp file by uncommenting the corresponding command.
+
+"PushForward" - Contains a header file "Pushforward_of_RefRegular.h" which contains the methods for computing the reflection from the obtained reflector and another header file "PushForward_Cloud_128.h" containing a pointcloud on the portion of the sphere, with approximately 128*128 points, sampled using quasi monte-carlo methods.
+
+
+"QuasiMonteCarlo" - Contains a header file  which defines necessary data containers and functions to work with quasi monte-carlo grids and another header file containing such grid.
+
+"SmallGrid" - Contains header file with a coarser quasi monte-carlo grid and another header file with complete code for computing benchmark test case on the coarse grid, in order to obtain better initialization for the finer grid.
+
+main.cpp file contains the rest of the code, including the different versions of sinkhorn algorithm and interchanges between structured and quasi monte-carlo grids.
+
+
+
+
+This code can be adjusted to any OS, but in its current form it can be run on Linux only, since it uses file and folder creation commands. 
 
 To run this code, Intel's MKL is necessary. Currently it is available at https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html
 

@@ -1,4 +1,4 @@
-# Benchmarks-PS-reflector
+# Benchmarks for Point Source to Far Field reflector problem
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171811.svg)](https://doi.org/10.5281/zenodo.5171811)
 
 This code is developed to simulate the benchmark cases of model hierarchies for the Point Source to Far Field reflector problem. In order to use the code, one should choose desired benchmark case in the main.cpp file, and then run the makefile.

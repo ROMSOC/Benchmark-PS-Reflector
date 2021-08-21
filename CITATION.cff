@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Rukhaia"
+  given-names: "Giorgi"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Benamou"
+  given-names: "Jean-David"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "IJzerman"
+  given-names: "Wilbert"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Acceleration of Sinkhorn Algorithm using epsilon-scaling with applications to the Reflector Problem"
+version: 1.0.0
+doi: 10.5281/zenodo.5171811
+date-released: 2021-01-06
+url: "https://github.com/ROMSOC/benchmarks-PS-reflector"

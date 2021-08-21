@@ -1,9 +1,0 @@
-@MISC{Benchmark-ESR3.
-key = {},
-author = {Rukhaia G.},
-title = {{Acceleration of Sinkhorn Algorithm using $\ep$ scaling with applications to the Reflector Problem}},
-month = April,
-year = 2020,
-doi = {10.xxxx/zenodo.xxxxxxx},
-note = {see also: \url{https://github.com/ROMSOC/Benchmark-ESR3}}
-}

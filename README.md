@@ -22,7 +22,9 @@ main.cpp file contains the rest of the code, including the different versions of
 
 ### RUN ON LOCAL HOSTS
 This code can be adjusted to any OS, but in its current form it can be run on Linux only, since it uses file and folder creation commands. 
-To run this code, Intel's MKL is necessary. Currently it is available at https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html
+To run this code, Intel's MKL is necessary. 
+
+Currently it is available at https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html
 In order to run the code, edit the Makefile by adjusting all mkl paths according to your installation.
 
 ### RUN JUPYTER NOTEBOOK

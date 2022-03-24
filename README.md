@@ -20,15 +20,23 @@ main.cpp file contains the rest of the code, including the different versions of
 
 
 
-
+### RUN ON LOCAL HOSTS
 This code can be adjusted to any OS, but in its current form it can be run on Linux only, since it uses file and folder creation commands. 
-
 To run this code, Intel's MKL is necessary. Currently it is available at https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html
-
-
 In order to run the code, edit the Makefile by adjusting all mkl paths according to your installation.
 
+### RUN JUPYTER NOTEBOOK
+The entire benchmark repository can be executed in a provided Docker container where a full installation of Intel OneAPI is available. Once you have clone or downloaded this repository, to build the container just type
+```bash
+docker build -t benchmarks-ps-reflector . 
+```
+and for running it locally:
+```bash
+docker run -u 0 -it --rm -p 8888:8888 benchmarks-ps-reflector jupyter-lab --ip=0.0.0.0 --port=8888 --allow-root
+```
 
+Alternatively, user-friendly Jupyter Notebooks could be used to run different benchmarks on the cloud. For instance, the benchmark is available at:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmarks-ps-reflector/HEAD?labpath=Benchmark.ipynb). Please, notice that mybinder cloud computations are limited to 2GB of RAM memory.
 
 ## Disclaimer
 In downloading this SOFTWARE you are deemed to have read and agreed to the following terms:

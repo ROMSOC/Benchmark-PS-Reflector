@@ -1,7 +1,7 @@
 <img src="images/romsoclogo-logo.png" alt="ROMSOC logo"  width="150"/>
 
 # Benchmarks for Point Source to Far Field reflector problem
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171811.svg)](https://doi.org/10.5281/zenodo.5171811)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171811.svg)](https://doi.org/10.5281/zenodo.5171811) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmarks-ps-reflector/HEAD?labpath=Benchmark.ipynb)
 
 This code is developed to simulate the benchmark cases of model hierarchies for the Point Source to Far Field reflector problem. In order to use the code, one should choose desired benchmark case in the main.cpp file, and then run the makefile.
 
